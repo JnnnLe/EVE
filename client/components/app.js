@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TimeAndGreeting from 'timeAndGreeting';
 
 class App extends Component {
 	render() {
