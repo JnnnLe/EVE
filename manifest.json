@@ -1,0 +1,23 @@
+/* 
+Describes intention of extension. 
+Eg. name, description, version number and so on. 
+At a high level, we will use it to declare to Chrome what the extension is going to do, and what permissions it requires in order to do those things.
+*/
+
+{
+  "manifest_version": 1.0,
+
+  "name": "EVE",
+  "description": "This extension is a customized dashboard for technological user who like to have their resources handy at the opening of every new tab in their Chrome browser",
+  "version": "beta",
+
+  "browser_action": {
+    // ...
+  },
+  "permissions": [
+    // ...
+  ]
+}
+
+// To be continued, when Chrome extension is ready. 
+// Oct. 20th, 2016
