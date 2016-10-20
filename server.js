@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = process.env.PORT || 3000;
 var path = require('path');
-var publicPath = path.resolve(__dirname, 'src');
+var publicPath = path.resolve(__dirname, 'client');
 
 app.use(morgan('combined'));
 app.use(bodyParser.json());
