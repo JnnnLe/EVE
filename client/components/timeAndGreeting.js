@@ -9,7 +9,6 @@ class TimeAndGreeting extends Component {
 	  	</div>
 	  ) 
 	}
-
 };
 
 export default TimeAndGreeting;
