@@ -3,6 +3,7 @@ import TimeAndGreeting from './timeAndGreeting';
 import Weather from './weather';
 import Links from './links';
 import Quote from './quote';
+import ImgLink from './ImgLink';
 
 class App extends Component {
 	render() {
@@ -12,6 +13,7 @@ class App extends Component {
 				<TimeAndGreeting/>
 				<Links/>
 				<Quote/>
+				<imgLink/>
 			</div>
 		)
 	}
