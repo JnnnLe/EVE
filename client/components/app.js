@@ -11,7 +11,7 @@ class App extends Component {
 		return (
 			<div>
 				<Weather/>
-				<ToDo>
+				<ToDo/>
 				<TimeAndGreeting/>
 				<Links/>
 				<Quote/>
